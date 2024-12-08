@@ -1,0 +1,21 @@
+Dataset Protocol
+
+1. under tag (tag is only used for easy identifier for the Data group)
+- write the name of the Food
+
+2. under patterns
+- write the possible user input patterns, this is used to identify the search input of the user
+
+3. under foodName
+- write the name of the food, it should be specific
+
+4. under foodInfo
+- write the information about the food, what is the food???
+
+5. under foodNutri
+- write the nutrition we can get from the food, the calorie should be the first then write the rest, it should be complete and use a unit of measurement like g (grams), mg
+
+6. under foodId
+- write the link of the image, test first if the image links works before putting it because it may not work, all images should have a white background
+
+7. do not mess up the datasets format or syntax make sure to follow the format
