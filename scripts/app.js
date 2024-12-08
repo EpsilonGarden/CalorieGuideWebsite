@@ -1,10 +1,5 @@
 // MAIN BOT SOFTWARE
 
-let G_foodName = "";
-let G_foodInfo = "";
-let G_foodNutri = "";
-let G_foodLink = "";
-
 async function sendUserInput() {
     // calls the function
     await getBotResponse();

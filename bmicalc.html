@@ -20,14 +20,24 @@
         </div>
 
         <div class="col-6">
-            <h1>Indev</h1>
-            <p>Indev</p>
+            <h1>Body Mass Index Calculator</h1>
+            <h2>Formula</h2>
+            <img src="https://www.pngitem.com/pimgs/m/326-3268579_transparent-math-equations-png-body-mass-index-formula.png" alt="">
+            <h2>weight in kg</h2>
+            <input id="weightInput" type="number" placeholder="input weight">
+            <h2>height in meters</h2>
+            <input id="heightInput" type="number" placeholder="input height">
+            <button id="bmiButton" onclick="CalculateBMI()">Calculate</button>
+            <h2 id="bmiOutput">BMI: 0</h2>
         </div>
 
         <div class="col-3 right">
             <div class="aside">
-                <h2>Indev</h2>
-                <p>Tndev</p>
+                <h2>Body mass index (BMI) categories for adults</h2>
+                <p>Underweight: Less than 18.5</p>
+                <p>Healthy weight: 18.5 to less than 25</p>
+                <p>Overweight: 25 to less than 30</p>
+                <p>Obesity: 30 or greater</p>
             </div>
         </div>
     </div>
@@ -36,8 +46,6 @@
         <p>Project made by University of Nueva Caceres Information Technology Students</p>
     </div>
 </body>
-<Script>
-
-</Script>
+<script src="scripts/bmiscript.js"></script>
 <link rel="stylesheet" href="style.css">
 </html>
