@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Based Calorie Guide</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Web Based Calorie Guide | Foods & Calorie Guide</h1>
+    </div>
+    
+    <div class="row">
+        <div class="col-3 menu">
+            <ul>
+                <li><a style="color: white;" href="index.html">Home</a></li>
+                <li><a style="color: white;" href="developers.html">Developers</a></li>
+                <li><a style="color: white;" href="calorieguide.html">Foods & Calorie Guide</a></li>
+                <li><a style="color: white;" href="bmicalc.html">BMI Calculator</a></li>
+            </ul>
+        </div>
+
+        <div class="col-6">
+            <h1 id="foodName">Burger</h1>
+            <img id="foodId" src="https://st2.depositphotos.com/5624298/8341/i/450/depositphotos_83416284-stock-photo-hamburger-on-white-background.jpg" alt="">
+            <p id="foodInfo">a dish consisting of a round patty of ground beef, or sometimes another savory ingredient, that is fried or grilled and typically served in a split bun or roll with various condiments and toppings.</p>
+            <h2>Nutrition</h2>
+            <p id="foodNutri">295 Calories, Total Fat 14 g, Cholesterol 47 mg, Sodium 414 mg, Potassium 226 mg, Total Carbohydrate 24 g, Protein 17 g	</p>
+        </div>
+
+        <div class="col-3 right">
+            <div class="aside">
+                <input id="userInput" type="text" placeholder="Search..">
+                <p>Search</p>
+                <button onclick="sendUserInput()">Button</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Project made by University of Nueva Caceres Information Technology Students</p>
+    </div>
+</body>
+<script src="scripts/app.js"></script>
+<link rel="stylesheet" href="style.css">
+</html>

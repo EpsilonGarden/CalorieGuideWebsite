@@ -1,0 +1,44 @@
+{
+    "intents": [   
+        {
+            "tag": "Burger",
+            "patterns": [
+                "Burger",
+                "Borgar", 
+                "Hamburger"
+            ],
+            "_foodName": [
+                "Burger"
+            ],
+            "_foodInfo": [
+                "a dish consisting of a round patty of ground beef, or sometimes another savory ingredient, that is fried or grilled and typically served in a split bun or roll with various condiments and toppings."
+            ],
+            "_foodNutri": [
+                "Calories 295, Total Fat 14 g, Cholesterol 47 mg, Sodium 414 mg, Potassium 226 mg, Total Carbohydrate 24 g, Protein 17 g"
+            ],
+            "_foodId": [
+                "https://st2.depositphotos.com/5624298/8341/i/450/depositphotos_83416284-stock-photo-hamburger-on-white-background.jpg"
+            ]
+        }, 
+        {
+            "tag": "SlicedBread",
+            "patterns": [
+                "Sliced Bread",
+                "SlicedTinapay",
+                "SlicedBred"
+            ],
+            "_foodName": [
+                "Sliced Bread"
+            ],
+            "_foodInfo": [
+                "bread that has been cut into slices"
+            ],
+            "_foodNutri": [
+                "Calories 67, Total Fat 1 g, Total Carbohydrate 13 g, Protein 2 g"
+            ],
+            "_foodId": [
+                "https://media.istockphoto.com/id/1004827186/photo/sliced-bread-on-white.jpg?s=612x612&w=0&k=20&c=gMoMq9cxekB4iNS7lOToPwm6SuXh5YVu-aodVpw9C34="
+            ]
+        }
+    ]
+}
