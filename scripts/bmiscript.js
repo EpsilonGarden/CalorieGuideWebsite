@@ -1,6 +1,10 @@
 function CalculateBMI(){
-    let weightValue = parseInt(document.getElementById("weightInput").value);
-    let heightValue = parseInt(document.getElementById("heightInput").value);
+    let weightValue = document.getElementById("weightInput").value;
+    let heightValue = document.getElementById("heightInput").value;
 
-    document.getElementById("bmiOutput").innerHTML = "BMI: " + weightValue / (Math.pow(heightValue));
+    let lbs = parseFloat(weightValue);
+    let inches = parseFloat(heightValue)
+    let result = "BMI: " + (lbs  * 703) / Math.pow(inches ,2);
+
+    document.getElementById("bmiOutput").innerHTML = result;
 }
