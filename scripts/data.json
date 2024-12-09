@@ -41,21 +41,22 @@
             ]
         },
         {
-            "tag": "Pizza",
+            "tag": "Pepperoni Pizza",
             "patterns": [
-                "Pizza"
+                "Pepperoni Pizza",
+                "Peperon Pizza"
             ],
             "_foodName": [
-                "Pizza"
+                "Pepperoni Pizza"
             ],
             "_foodInfo": [
-                "a dish of Italian origin consisting of a flat, round base of dough baked with a topping of tomato sauce and cheese, typically with added meat or vegetables:"
+                "a dish of Italian origin consisting of a flat, round base of dough baked with a topping of pepperoni, tomato sauce and cheese, typically with added meat or vegetables:"
             ],
             "_foodNutri": [
                 "Calories: 285, Fat: 10.4g, Sodium: 640mg, Carbohydrates: 35.6g, Fiber: 2.5g, Sugars: 3.8g, Protein: 12.2g"
             ],
             "_foodId": [
-                "https://g.foolcdn.com/editorial/images/593245/pizza.jpg"
+                "https://img.freepik.com/premium-photo/pepperoni-pizza-with-white-background_900101-34433.jpg"
             ]
         }
     ]
