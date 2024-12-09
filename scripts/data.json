@@ -39,6 +39,24 @@
             "_foodId": [
                 "https://media.istockphoto.com/id/1004827186/photo/sliced-bread-on-white.jpg?s=612x612&w=0&k=20&c=gMoMq9cxekB4iNS7lOToPwm6SuXh5YVu-aodVpw9C34="
             ]
+        },
+        {
+            "tag": "Pizza",
+            "patterns": [
+                "Pizza"
+            ],
+            "_foodName": [
+                "Pizza"
+            ],
+            "_foodInfo": [
+                "a dish of Italian origin consisting of a flat, round base of dough baked with a topping of tomato sauce and cheese, typically with added meat or vegetables:"
+            ],
+            "_foodNutri": [
+                "Calories: 285, Fat: 10.4g, Sodium: 640mg, Carbohydrates: 35.6g, Fiber: 2.5g, Sugars: 3.8g, Protein: 12.2g"
+            ],
+            "_foodId": [
+                "https://g.foolcdn.com/editorial/images/593245/pizza.jpg"
+            ]
         }
     ]
 }
